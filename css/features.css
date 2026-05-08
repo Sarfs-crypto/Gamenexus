@@ -1,0 +1,76 @@
+/* ============================================================
+   BLOQUE: features
+   ============================================================ */
+.features {
+    padding: var(--space-3xl) 0;
+    background-color: var(--color-bg-dark);
+    text-align: center;
+}
+
+.features__title {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    color: var(--color-highlight);
+    margin-bottom: var(--space-sm);
+}
+
+.features__description {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-2xl);
+}
+
+.features__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-xl);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+}
+
+/* ============================================================
+   BLOQUE: feature-card (Tarjeta de característica)
+   ============================================================ */
+.feature-card {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    border: 1px solid var(--color-border);
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+}
+
+.feature-card--featured {
+    border-color: var(--color-accent);
+    box-shadow: var(--shadow-glow);
+}
+
+.feature-card__icon {
+    font-size: 3rem;
+    margin-bottom: var(--space-md);
+}
+
+.feature-card__title {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--color-white);
+    margin-bottom: var(--space-sm);
+}
+
+.feature-card__description {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    margin-bottom: var(--space-md);
+    line-height: 1.7;
+}
+
+.feature-card__image {
+    border-radius: var(--radius-md);
+    height: 180px;
+    object-fit: cover;
+    margin-top: var(--space-md);
+}

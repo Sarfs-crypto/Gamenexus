@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameNexus - Plataforma de Videojuegos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="css/contact-form.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ============================================================ -->
+    <!-- BLOQUE: header (Cabecera con menú de navegación)             -->
+    <!-- ============================================================ -->
+    <header class="header">
+        <div class="header__logo">
+            <a href="#" class="header__logo-link">
+                <img src="img/logo.png" alt="GameNexus Logo" class="header__logo-image">
+                <span class="header__logo-text">GameNexus</span>
+            </a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item header__menu-item--active">
+                    <a href="#hero" class="header__link">Inicio</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="#features" class="header__link">Características</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="#pricing" class="header__link">Precios</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="#contact" class="header__link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__cta">
+            <button class="button button--primary">Registrarse</button>
+        </div>
+        <!-- Menú hamburguesa para móviles -->
+        <input type="checkbox" id="menu-toggle" class="header__menu-toggle">
+        <label for="menu-toggle" class="header__hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    </header>
+
+    <!-- ============================================================ -->
+    <!-- BLOQUE: hero (Sección Principal con imagen de fondo)         -->
+    <!-- ============================================================ -->
+    <section id="hero" class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <h1 class="hero__title">Domina el Juego</h1>
+            <p class="hero__subtitle">La plataforma definitiva para gamers. Compite, conecta y conquista con GameNexus.
+            </p>
+            <div class="hero__actions">
+                <a href="#pricing" class="button button--primary button--large">Comenzar Ahora</a>
+                <a href="#features" class="button button--secondary button--large">Conocer Más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- BLOQUE: features (Características del producto)               -->
+    <!-- ============================================================ -->
+    <section id="features" class="features">
+        <h2 class="features__title">¿Por qué GameNexus?</h2>
+        <p class="features__description">Todo lo que necesitas para llevar tu experiencia gamer al siguiente nivel</p>
+        <div class="features__grid">
+
+            <!-- Tarjeta 1 - Destacada -->
+            <div class="feature-card feature-card--featured">
+                <div class="feature-card__icon">🎮</div>
+                <h3 class="feature-card__title">Multijugador en Tiempo Real</h3>
+                <p class="feature-card__description">Conéctate con jugadores de todo el mundo sin latencia. Servidores
+                    dedicados 24/7.</p>
+                <img src="img/game-1.jpg" alt="Multijugador" class="feature-card__image">
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="feature-card">
+                <div class="feature-card__icon">🏆</div>
+                <h3 class="feature-card__title">Torneos y Rankings</h3>
+                <p class="feature-card__description">Participa en torneos semanales y escala en el ranking global.
+                    ¡Demuestra quién es el mejor!</p>
+                <img src="img/game-2.jpg" alt="Torneos" class="feature-card__image">
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="feature-card">
+                <div class="feature-card__icon">💬</div>
+                <h3 class="feature-card__title">Comunidad Activa</h3>
+                <p class="feature-card__description">Chat de voz integrado, foros y grupos. Encuentra tu squad perfecto.
+                </p>
+                <img src="img/game-3.jpg" alt="Comunidad" class="feature-card__image">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- BLOQUE: testimonials (Testimonios de usuarios)                -->
+    <!-- ============================================================ -->
+    <section class="testimonials">
+        <h2 class="testimonials__title">Lo Que Dicen Nuestros Gamers</h2>
+        <div class="testimonials__grid">
+
+            <!-- Testimonio 1 - Destacado -->
+            <div class="testimonial testimonial--featured">
+                <img src="img/avatar-1.jpg" alt="Avatar de usuario 1" class="testimonial__avatar">
+                <blockquote class="testimonial__quote">
+                    "GameNexus revolucionó mi forma de jugar. La comunidad es increíble y los torneos son súper
+                    adictivos."
+                </blockquote>
+                <cite class="testimonial__author">Alex "Shadow" Martínez</cite>
+                <span class="testimonial__role">Jugador Profesional</span>
+            </div>
+
+            <!-- Testimonio 2 -->
+            <div class="testimonial">
+                <img src="img/avatar-2.jpg" alt="Avatar de usuario 2" class="testimonial__avatar">
+                <blockquote class="testimonial__quote">
+                    "Desde que me uní a GameNexus, encontré un equipo con el que juego todas las noches. ¡Es mi segunda
+                    familia!"
+                </blockquote>
+                <cite class="testimonial__author">Laura "Valkyrie" Gómez</cite>
+                <span class="testimonial__role">Streamer</span>
+            </div>
+
+            <!-- Testimonio 3 -->
+            <div class="testimonial">
+                <img src="img/avatar-3.jpg" alt="Avatar de usuario 3" class="testimonial__avatar">
+                <blockquote class="testimonial__quote">
+                    "Los torneos y el sistema de ranking son lo mejor. Siempre hay un desafío nuevo esperándote."
+                </blockquote>
+                <cite class="testimonial__author">Carlos "Phantom" Ruiz</cite>
+                <span class="testimonial__role">Top 10 Global</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- BLOQUE: pricing (Planes de precios)                          -->
+    <!-- ============================================================ -->
+    <section id="pricing" class="pricing">
+        <h2 class="pricing__title">Elige Tu Plan</h2>
+        <p class="pricing__subtitle">Comienza gratis y actualiza cuando quieras</p>
+        <div class="pricing__grid">
+
+            <!-- Plan Básico -->
+            <div class="pricing-card">
+                <h3 class="pricing-card__name">Free</h3>
+                <p class="pricing-card__price">$0<span class="pricing-card__period">/mes</span></p>
+                <ul class="pricing-card__features">
+                    <li class="pricing-card__feature">✓ Acceso a 3 juegos</li>
+                    <li class="pricing-card__feature">✓ Chat de voz básico</li>
+                    <li class="pricing-card__feature">✓ Perfil personalizado</li>
+                    <li class="pricing-card__feature pricing-card__feature--unavailable">✗ Torneos</li>
+                </ul>
+                <button class="button button--secondary">Comenzar</button>
+            </div>
+
+            <!-- Plan Pro - Destacado -->
+            <div class="pricing-card pricing-card--featured">
+                <h3 class="pricing-card__name">Pro</h3>
+                <p class="pricing-card__price">$9.99<span class="pricing-card__period">/mes</span></p>
+                <ul class="pricing-card__features">
+                    <li class="pricing-card__feature">✓ Todos los juegos</li>
+                    <li class="pricing-card__feature">✓ Chat de voz HD</li>
+                    <li class="pricing-card__feature">✓ Perfil premium</li>
+                    <li class="pricing-card__feature">✓ Torneos semanales</li>
+                </ul>
+                <button class="button button--primary">Elegir Pro</button>
+            </div>
+
+            <!-- Plan Ultimate -->
+            <div class="pricing-card">
+                <h3 class="pricing-card__name">Ultimate</h3>
+                <p class="pricing-card__price">$19.99<span class="pricing-card__period">/mes</span></p>
+                <ul class="pricing-card__features">
+                    <li class="pricing-card__feature">✓ Todo lo de Pro</li>
+                    <li class="pricing-card__feature">✓ Acceso anticipado</li>
+                    <li class="pricing-card__feature">✓ Soporte prioritario</li>
+                    <li class="pricing-card__feature">✓ Torneos exclusivos</li>
+                </ul>
+                <button class="button button--secondary">Elegir Ultimate</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- BLOQUE: contact-form (Formulario de contacto)                -->
+    <!-- ============================================================ -->
+    <section id="contact" class="contact-form">
+        <h2 class="contact-form__title">Contáctanos</h2>
+        <form class="contact-form__form">
+            <div class="contact-form__field">
+                <label class="contact-form__label" for="nombre">Nombre:</label>
+                <input type="text" id="nombre" class="contact-form__input" placeholder="Tu nombre" required>
+            </div>
+            <div class="contact-form__field">
+                <label class="contact-form__label" for="email">Email:</label>
+                <input type="email" id="email" class="contact-form__input" placeholder="tu@email.com" required>
+                <span class="contact-form__error-message">Email inválido</span>
+            </div>
+            <div class="contact-form__field">
+                <label class="contact-form__label" for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" class="contact-form__textarea" placeholder="Cuéntanos..."></textarea>
+            </div>
+            <button type="submit" class="button button--primary contact-form__submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- BLOQUE: footer (Pie de página)                               -->
+    <!-- ============================================================ -->
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__col">
+                <h4 class="footer__heading">GameNexus</h4>
+                <p class="footer__text">La plataforma gamer más completa del mercado.</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Navegación</h4>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#hero" class="footer__link">Inicio</a></li>
+                    <li class="footer__list-item"><a href="#features" class="footer__link">Características</a></li>
+                    <li class="footer__list-item"><a href="#pricing" class="footer__link">Precios</a></li>
+                    <li class="footer__list-item"><a href="#contact" class="footer__link">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Redes Sociales</h4>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">Discord</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Twitter</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">YouTube</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Twitch</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2026 GameNexus. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

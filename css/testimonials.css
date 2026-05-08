@@ -1,0 +1,71 @@
+/* ============================================================
+   BLOQUE: testimonials
+   ============================================================ */
+.testimonials {
+    padding: var(--space-3xl) 0;
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
+.testimonials__title {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    color: var(--color-highlight);
+    margin-bottom: var(--space-2xl);
+}
+
+.testimonials__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-xl);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+}
+
+/* ============================================================
+   BLOQUE: testimonial (Tarjeta de testimonio)
+   ============================================================ */
+.testimonial {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    border: 1px solid var(--color-border);
+    transition: transform var(--transition);
+}
+
+.testimonial:hover {
+    transform: translateY(-4px);
+}
+
+.testimonial--featured {
+    border-color: var(--color-highlight);
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+}
+
+.testimonial__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto var(--space-md);
+    border: 3px solid var(--color-accent);
+}
+
+.testimonial__quote {
+    color: var(--color-text);
+    font-style: italic;
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+}
+
+.testimonial__author {
+    display: block;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.testimonial__role {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+}
