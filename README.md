@@ -26,31 +26,4 @@ GameNexus es una landing page moderna y responsiva para una plataforma de videoj
 
 ---
 
-🧩 Estructura del Proyecto
 
-├── index.php
-├── procesar-contacto.php
-├── README.md
-├── css/
-│   ├── style.css
-│   ├── header.css
-│   ├── hero.css
-│   ├── features.css
-│   ├── testimonials.css
-│   ├── pricing.css
-│   ├── contact-form.css
-│   └── footer.css
-├── img/
-│   └── (tus imágenes)
-├── includes/
-│   ├── header.php
-│   ├── footer.php
-│   └── funciones.php
-├── secciones/
-│   ├── hero.php
-│   ├── features.php
-│   ├── testimonials.php
-│   ├── pricing.php
-│   └── contact-form.php
-└── docs/
-    └── explicacion-bem.md
