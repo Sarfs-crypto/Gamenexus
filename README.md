@@ -13,7 +13,7 @@ GameNexus es una landing page moderna y responsiva para una plataforma de videoj
 ### 🎯 Objetivos del Taller
 
 - Implementar la metodología **BEM (Block, Element, Modifier)** para CSS.
-- Crear una landing page completa con **7 secciones obligatorias**.
+- Crear una landing page completa con **7 
 - Organizar el código CSS por componentes independientes.
 - Utilizar PHP para modularizar el HTML con `includes`.
 - Documentar las decisiones de diseño BEM.
@@ -26,4 +26,31 @@ GameNexus es una landing page moderna y responsiva para una plataforma de videoj
 
 ---
 
-## 🧩 Estructura del Proyecto
+🧩 Estructura del Proyecto
+
+├── index.php
+├── procesar-contacto.php
+├── README.md
+├── css/
+│   ├── style.css
+│   ├── header.css
+│   ├── hero.css
+│   ├── features.css
+│   ├── testimonials.css
+│   ├── pricing.css
+│   ├── contact-form.css
+│   └── footer.css
+├── img/
+│   └── (tus imágenes)
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   └── funciones.php
+├── secciones/
+│   ├── hero.php
+│   ├── features.php
+│   ├── testimonials.php
+│   ├── pricing.php
+│   └── contact-form.php
+└── docs/
+    └── explicacion-bem.md
