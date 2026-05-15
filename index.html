@@ -20,9 +20,7 @@
 
 <body>
 
-    <!-- ============================================================ -->
-    <!-- BLOQUE: header (Cabecera con menú de navegación)             -->
-    <!-- ============================================================ -->
+    <!-- Header -->
     <header class="header">
         <div class="header__logo">
             <a href="#" class="header__logo-link">
@@ -49,7 +47,6 @@
         <div class="header__cta">
             <button class="button button--primary">Registrarse</button>
         </div>
-        <!-- Menú hamburguesa para móviles -->
         <input type="checkbox" id="menu-toggle" class="header__menu-toggle">
         <label for="menu-toggle" class="header__hamburger">
             <span></span>
@@ -58,9 +55,7 @@
         </label>
     </header>
 
-    <!-- ============================================================ -->
-    <!-- BLOQUE: hero (Sección Principal con imagen de fondo)         -->
-    <!-- ============================================================ -->
+    <!-- Hero -->
     <section id="hero" class="hero">
         <div class="hero__overlay"></div>
         <div class="hero__content">
@@ -74,17 +69,18 @@
         </div>
     </section>
 
-    <!-- ============================================================ -->
-    <!-- BLOQUE: features (Características del producto)               -->
-    <!-- ============================================================ -->
+    <!-- Features con las nuevas imágenes -->
     <section id="features" class="features">
         <h2 class="features__title">¿Por qué GameNexus?</h2>
         <p class="features__description">Todo lo que necesitas para llevar tu experiencia gamer al siguiente nivel</p>
+
         <div class="features__grid">
 
-            <!-- Tarjeta 1 - Destacada -->
+            <!-- Tarjeta 1 -->
             <div class="feature-card feature-card--featured">
-                <div class="feature-card__icon">🎮</div>
+                <div class="feature-card__icon">
+                    <img src="img/icon-controller.png" alt="Multijugador" class="feature-icon">
+                </div>
                 <h3 class="feature-card__title">Multijugador en Tiempo Real</h3>
                 <p class="feature-card__description">Conéctate con jugadores de todo el mundo sin latencia. Servidores
                     dedicados 24/7.</p>
@@ -93,7 +89,9 @@
 
             <!-- Tarjeta 2 -->
             <div class="feature-card">
-                <div class="feature-card__icon">🏆</div>
+                <div class="feature-card__icon">
+                    <img src="img/icon-trophy.png" alt="Torneos y Rankings" class="feature-icon">
+                </div>
                 <h3 class="feature-card__title">Torneos y Rankings</h3>
                 <p class="feature-card__description">Participa en torneos semanales y escala en el ranking global.
                     ¡Demuestra quién es el mejor!</p>
@@ -102,7 +100,9 @@
 
             <!-- Tarjeta 3 -->
             <div class="feature-card">
-                <div class="feature-card__icon">💬</div>
+                <div class="feature-card__icon">
+                    <img src="img/icon-community.png" alt="Comunidad Activa" class="feature-icon">
+                </div>
                 <h3 class="feature-card__title">Comunidad Activa</h3>
                 <p class="feature-card__description">Chat de voz integrado, foros y grupos. Encuentra tu squad perfecto.
                 </p>
@@ -112,14 +112,11 @@
         </div>
     </section>
 
-    <!-- ============================================================ -->
-    <!-- BLOQUE: testimonials (Testimonios de usuarios)                -->
-    <!-- ============================================================ -->
+    <!-- Testimonials -->
     <section class="testimonials">
         <h2 class="testimonials__title">Lo Que Dicen Nuestros Gamers</h2>
         <div class="testimonials__grid">
 
-            <!-- Testimonio 1 - Destacado -->
             <div class="testimonial testimonial--featured">
                 <img src="img/avatar-1.jpg" alt="Avatar de usuario 1" class="testimonial__avatar">
                 <blockquote class="testimonial__quote">
@@ -130,7 +127,6 @@
                 <span class="testimonial__role">Jugador Profesional</span>
             </div>
 
-            <!-- Testimonio 2 -->
             <div class="testimonial">
                 <img src="img/avatar-2.jpg" alt="Avatar de usuario 2" class="testimonial__avatar">
                 <blockquote class="testimonial__quote">
@@ -141,7 +137,6 @@
                 <span class="testimonial__role">Streamer</span>
             </div>
 
-            <!-- Testimonio 3 -->
             <div class="testimonial">
                 <img src="img/avatar-3.jpg" alt="Avatar de usuario 3" class="testimonial__avatar">
                 <blockquote class="testimonial__quote">
@@ -154,15 +149,12 @@
         </div>
     </section>
 
-    <!-- ============================================================ -->
-    <!-- BLOQUE: pricing (Planes de precios)                          -->
-    <!-- ============================================================ -->
+    <!-- Pricing -->
     <section id="pricing" class="pricing">
         <h2 class="pricing__title">Elige Tu Plan</h2>
         <p class="pricing__subtitle">Comienza gratis y actualiza cuando quieras</p>
         <div class="pricing__grid">
-
-            <!-- Plan Básico -->
+            <!-- Plan Free -->
             <div class="pricing-card">
                 <h3 class="pricing-card__name">Free</h3>
                 <p class="pricing-card__price">$0<span class="pricing-card__period">/mes</span></p>
@@ -175,7 +167,7 @@
                 <button class="button button--secondary">Comenzar</button>
             </div>
 
-            <!-- Plan Pro - Destacado -->
+            <!-- Plan Pro -->
             <div class="pricing-card pricing-card--featured">
                 <h3 class="pricing-card__name">Pro</h3>
                 <p class="pricing-card__price">$9.99<span class="pricing-card__period">/mes</span></p>
@@ -200,13 +192,10 @@
                 </ul>
                 <button class="button button--secondary">Elegir Ultimate</button>
             </div>
-
         </div>
     </section>
 
-    <!-- ============================================================ -->
-    <!-- BLOQUE: contact-form (Formulario de contacto)                -->
-    <!-- ============================================================ -->
+    <!-- Contact -->
     <section id="contact" class="contact-form">
         <h2 class="contact-form__title">Contáctanos</h2>
         <form class="contact-form__form">
@@ -217,7 +206,6 @@
             <div class="contact-form__field">
                 <label class="contact-form__label" for="email">Email:</label>
                 <input type="email" id="email" class="contact-form__input" placeholder="tu@email.com" required>
-                <span class="contact-form__error-message">Email inválido</span>
             </div>
             <div class="contact-form__field">
                 <label class="contact-form__label" for="mensaje">Mensaje:</label>
@@ -227,9 +215,7 @@
         </form>
     </section>
 
-    <!-- ============================================================ -->
-    <!-- BLOQUE: footer (Pie de página)                               -->
-    <!-- ============================================================ -->
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer__grid">
             <div class="footer__col">
